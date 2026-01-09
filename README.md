@@ -4,12 +4,12 @@
 
 
 ## 🔭 Overview
-This project develops a facial emotion recognition system using Convolutional Neural Networks (CNNs) applied to the FER-2013 dataset. The system classifies facial expressions into seven categories: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral. The notebook implements and compares several model architectures, including custom CNNs and transfer learning approaches with pre-trained networks. This is fundamentally an image classification task, which falls under the broader domain of computer vision, even if specific libraries like OpenCV were not explicitly used—instead, the focus is on deep learning frameworks for processing and analyzing images.
+This project develops a facial emotion recognition system using `Convolutional Neural Networks (CNNs)` applied to the `FER-2013` dataset. The system classifies facial expressions into seven categories: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral. The notebook implements and compares several model architectures, including custom CNNs and transfer learning approaches with pre-trained networks. This is fundamentally an image classification task, which falls under the broader domain of computer vision, even if specific libraries like OpenCV were not explicitly used—instead, the focus is on deep learning frameworks for processing and analyzing images.
 
 
 ### 🚀 Key topics covered (based on code analysis):
 - **Image Processing and Deep Learning:** Handling image data, building CNN models, training, and evaluation using Keras/TensorFlow.
-- **Transfer Learning:** Adapting pre-trained models (ResNet50 and VGG16) from ImageNet for emotion detection.
+- **Transfer Learning:** Adapting pre-trained models (`ResNet50` and `VGG16`) from ImageNet for emotion detection.
 - **Data Augmentation:** Techniques to enhance training data and improve model robustness.
 - **Model Evaluation:** Logging training metrics, accuracy assessment, and potential visualizations.
 
